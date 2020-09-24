@@ -50,8 +50,8 @@ void insertNode( struct Node** node, int location, int data ){
 void deleteNode( struct Node** node, int location ) {
 
     int i = 1;
-    struct Node* prevNode; //p
-    struct Node* nextNode; //q
+    struct Node* prevNode;
+    struct Node* nextNode;
 
     // If linked list empty just return
     if ( *node == NULL || location == 0){
